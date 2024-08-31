@@ -1,0 +1,170 @@
+/** style for tm page**/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: grid;
+    height: 10vh;
+    
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px;  
+    width: 100%;
+    height: 300px;
+ 
+}
+
+.inline-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+.inline-list li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: lighter; 
+    font-size: xx-small; 
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+   margin-top: 40px;
+    background-color: #ffc507; /* Circle background color */
+    border: 5px solid #ffffff; /* Circle border */
+    border-radius: 50%; /* Makes the container a circle */
+    overflow: hidden;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+ h1 {
+    color: #ffc507;
+}
+
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0.1;
+}
+
+div small {
+    font-size:x-small;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+p i {
+    text-align: center;
+    margin: 150px;
+}
+.scroll-to-top {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.scroll-to-top:hover {
+    background: #555;
+}
+
+i {
+    background: #695353;
+    color: #ffffff;
+    padding: 10px 30px;
+
+    border-radius: 5px;
+     }
+
+     i a {
+        color: #c9b677;
+        
+     }
+    
+.video {
+    position: relative;
+    width: 100%;
+    height: auto;
+   
+
+    
+    transform: translateX(-100%); /* Start position off-screen to the left */
+    animation: slideIn 3s forwards; /* Animation name, duration, and final state */
+}
+
+
+
+/* Define the sliding animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Start position off-screen to the left */
+    }
+    to {
+        transform: translateX(0); /* End position at its natural position */
+    }
+}
+
+
+@media screen {
+    
+}
