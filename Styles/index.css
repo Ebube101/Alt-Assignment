@@ -66,6 +66,11 @@ nav ul li a {
     display: inline-block;
 }
 
+.student_id {
+    margin-top: 15px;
+    color: goldenrod;
+}
+
 section {
     padding: 20px;
     margin: 20px;
