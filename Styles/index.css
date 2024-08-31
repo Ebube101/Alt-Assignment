@@ -181,7 +181,10 @@ i {
         gap: 5px;
     }
 
-    
+    .image img {
+        width: 200px;
+        height: 200px;
+    }
 
     table, th, td {
         font-size: 0.8em;
