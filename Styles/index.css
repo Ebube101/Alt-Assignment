@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 .student_id {
-    margin-top: 15px;
+    margin-top: 10px;
     color: goldenrod;
 }
 
@@ -90,7 +90,7 @@ div {
     text-align: center;
     padding: 0px;
     margin: 0px;
-    line-height: 1.5;
+    line-height: 0.1;
 }
 
 div small {
